@@ -24,7 +24,7 @@ if __name__ == "__main__":
     else:
         p = w.index(".")
         print(num1words(int(w[0:p])), end = "")
-        print(" point ")
+        print(" point ", end = "")
         for i in range(p+1, len(w)-1):
             print(num2words(int(w[i])), end = " ")
         print(num2words(int(w[-1])))
