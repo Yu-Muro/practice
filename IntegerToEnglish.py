@@ -1,7 +1,7 @@
 def num1words(num):
     nums_20_90 = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
     nums_0_19 = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
-    nums_dict = {100: "hundred",1000:"thousand", 1000000:"million", 1000000000:"billion"}
+    nums_dict = {100: "hundred", 1000:"thousand", 1000000:"million", 1000000000:"billion"}
 
     if num < 20:
         return nums_0_19[num]
@@ -15,6 +15,7 @@ def num1words(num):
 def num2words(num):
     nums_0_9 = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     return nums_0_9[num]
+
 
 if __name__ == "__main__":
     w = input()
